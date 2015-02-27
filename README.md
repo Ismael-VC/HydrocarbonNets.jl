@@ -1,12 +1,12 @@
 # **A**rtificial **H**ydrocarbon **N**etworks (*[AHNs][1]*) in [Julia][2].
 
-[![Coverage Status](https://coveralls.io/repos/Ismael-VC/AHN.jl/badge.svg?branch=master)](https://coveralls.io/r/Ismael-VC/AHN.jl?branch=master) [![Build Status](https://travis-ci.org/Ismael-VC/AHN.jl.svg)](https://travis-ci.org/Ismael-VC/AHN.jl) [![Build status](https://ci.appveyor.com/api/projects/status/86j80h36e2m3tx0h?svg=true)](https://ci.appveyor.com/project/Ismael-VC/ahn-jl) [![](https://img.shields.io/github/issues/Ismael-VC/AHN.jl.svg)](https://github.com/Ismael-VC/AHN.jl/issues) [![](https://img.shields.io/github/forks/Ismael-VC/AHN.jl.svg)](https://github.com/Ismael-VC/AHN.jl/network) [![](https://img.shields.io/github/stars/Ismael-VC/AHN.jl.svg)](https://github.com/Ismael-VC/AHN.jl/stargazers) [![](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Ismael-VC/AHN.jl/blob/master/LICENSE)
+[![Coverage Status](https://coveralls.io/repos/Ismael-VC/HydrocarbonNets.jl/badge.svg)](https://coveralls.io/r/Ismael-VC/HydrocarbonNets.jl) [![Build Status](https://travis-ci.org/Ismael-VC/HydrocarbonNets.jl.svg)](https://travis-ci.org/Ismael-VC/HydrocarbonNets.jl) [![Build status](https://ci.appveyor.com/api/projects/status/91r33et5beaxc9a8?svg=true)](https://ci.appveyor.com/project/Ismael-VC/hydrocarbonnets-jl) [![](https://img.shields.io/github/issues/Ismael-VC/HydrocarbonNets.jl.svg)](https://github.com/Ismael-VC/HydrocarbonNets.jl/issues) [![](https://img.shields.io/github/forks/Ismael-VC/HydrocarbonNets.jl.svg)](https://github.com/Ismael-VC/HydrocarbonNets.jl/network) [![](https://img.shields.io/github/stars/Ismael-VC/HydrocarbonNets.jl.svg)](https://github.com/Ismael-VC/HydrocarbonNets.jl/stargazers) [![](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Ismael-VC/HydrocarbonNets.jl/blob/master/LICENSE)
 
 ## Install:
 
 ```julia
-julia> Pkg.clone("https://github.com/Ismael-VC/AHN.jl.git")
-INFO: Cloning AHN from https://github.com/Ismael-VC/AHN.jl.git
+julia> Pkg.clone("https://github.com/Ismael-VC/HydrocarbonNets.jl.git")
+INFO: Cloning HydrocarbonNets from https://github.com/Ismael-VC/HydrocarbonNets.jl.git
 INFO: Computing changes...
 ```
 
@@ -15,7 +15,7 @@ INFO: Computing changes...
 ```julia
 julia> Pkg.update()
 INFO: Updating METADATA...
-INFO: Updating AHN...
+INFO: Updating HydrocarbonNets...
 INFO: Computing changes...
 INFO: No packages to install, update or remove
 ```
@@ -23,17 +23,17 @@ INFO: No packages to install, update or remove
 ## Test:
 
 ```julia
-julia> Pkg.test("AHN")
-INFO: Testing AHN
-INFO: AHN tests passed
+julia> Pkg.test("HydrocarbonNets")
+INFO: Testing HydrocarbonNets
+INFO: HydrocarbonNets tests passed
 INFO: No packages to install, update or remove
 ```
 
 ## Uninstall:
 
 ```julia
-julia> Pkg.rm("AHN")
-INFO: Removing AHN (unregistered)
+julia> Pkg.rm("HydrocarbonNets")
+INFO: Removing HydrocarbonNets (unregistered)
 ```
 
 ## Documentation:
@@ -48,4 +48,4 @@ INFO: Removing AHN (unregistered)
 
 [1]: http://link.springer.com/chapter/10.1007/978-3-319-02472-1_4
 [2]: http://julialang.org/
-[3]: https://github.com/Ismael-VC/AHN.jl/wiki
+[3]: https://github.com/Ismael-VC/HydrocarbonNets.jl/wiki
