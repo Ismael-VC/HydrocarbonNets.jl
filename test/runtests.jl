@@ -1,6 +1,4 @@
-using AHN
-using Base.Test
-using Compat
+using AHN, Base.Test, Compat
 
 
 include("atomic_tests.jl")
