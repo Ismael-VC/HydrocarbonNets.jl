@@ -1,4 +1,4 @@
-using AHN, Base.Test, Compat
+using HydrocarbonNets, Base.Test, Compat
 
 
 include("atomic_tests.jl")

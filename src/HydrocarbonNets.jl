@@ -1,4 +1,4 @@
-module AHN
+module HydrocarbonNets
 
 using Compat
 
