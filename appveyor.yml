@@ -1,9 +1,9 @@
 environment:
   matrix:
-    # - JULIAVERSION: "stable/win32"
-    # - JULIAVERSION: "download/win32"
-    # - JULIAVERSION: "stable/win64"
-    # - JULIAVERSION: "download/win64"
+    - JULIAVERSION: "stable/win32"
+    - JULIAVERSION: "download/win32"
+    - JULIAVERSION: "stable/win64"
+    - JULIAVERSION: "download/win64"
 
 skip_commits:
 # Add [ci skip] to commit messages for docfixes, etc to reduce load on queue
