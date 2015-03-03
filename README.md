@@ -38,8 +38,8 @@ INFO: Removing HydrocarbonNets (unregistered)
 
 ## Documentation:
 
-* Artificial Hydrocarbon Networks **[Docs][3]**.
-* Artificial Hydrocarbon Networks **[Wiki][4]**.
+* HydrocarbonNets.jl **[Docs][3]**.
+* HydrocarbonNets.jl **[Wiki][4]**.
 
 ## To Do:
 
