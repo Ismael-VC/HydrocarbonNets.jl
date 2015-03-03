@@ -39,7 +39,7 @@ INFO: Removing HydrocarbonNets (unregistered)
 ## Resources:
 
 * `HydrocarbonNets.jl` **[Docs][3]**.
-* **AHN** **[Wiki][4]**.
+* **A**rtificial **O**rganic **N**etworks **[Wiki][4]**.
 
 ## To Do:
 
