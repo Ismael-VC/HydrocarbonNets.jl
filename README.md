@@ -38,7 +38,8 @@ INFO: Removing HydrocarbonNets (unregistered)
 
 ## Documentation:
 
-* Artificial Hydrocarbon Networks **[Wiki][3]**.
+* Artificial Hydrocarbon Networks **[Docs][3]**.
+* Artificial Hydrocarbon Networks **[Wiki][4]**.
 
 ## To Do:
 
@@ -49,4 +50,5 @@ INFO: Removing HydrocarbonNets (unregistered)
 
 [1]: http://link.springer.com/chapter/10.1007/978-3-319-02472-1_4
 [2]: http://julialang.org/
-[3]: https://github.com/Ismael-VC/HydrocarbonNets.jl/wiki
+[3]: http://hydrocarbonnetsjl.readthedocs.org/en/latest/
+[4]: https://github.com/Ismael-VC/HydrocarbonNets.jl/wiki
