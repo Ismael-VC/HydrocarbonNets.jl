@@ -1,6 +1,6 @@
 # **A**rtificial **H**ydrocarbon **N**etworks (*[AHNs][1]*) in [Julia][2].
 
-[![Coverage Status](https://coveralls.io/repos/Ismael-VC/HydrocarbonNets.jl/badge.svg)](https://coveralls.io/r/Ismael-VC/HydrocarbonNets.jl) [![Build Status](https://travis-ci.org/Ismael-VC/HydrocarbonNets.jl.svg)](https://travis-ci.org/Ismael-VC/HydrocarbonNets.jl) [![](https://img.shields.io/github/issues/Ismael-VC/HydrocarbonNets.jl.svg)](https://github.com/Ismael-VC/HydrocarbonNets.jl/issues) [![](https://img.shields.io/github/forks/Ismael-VC/HydrocarbonNets.jl.svg)](https://github.com/Ismael-VC/HydrocarbonNets.jl/network) [![](https://img.shields.io/github/stars/Ismael-VC/HydrocarbonNets.jl.svg)](https://github.com/Ismael-VC/HydrocarbonNets.jl/stargazers) [![](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Ismael-VC/HydrocarbonNets.jl/blob/master/LICENSE)
+[![Coverage Status](https://coveralls.io/repos/Ismael-VC/HydrocarbonNets.jl/badge.svg)](https://coveralls.io/r/Ismael-VC/HydrocarbonNets.jl) [![Build Status](https://travis-ci.org/Ismael-VC/HydrocarbonNets.jl.svg)](https://travis-ci.org/Ismael-VC/HydrocarbonNets.jl) [![Issues](https://img.shields.io/github/issues/Ismael-VC/HydrocarbonNets.jl.svg)](https://github.com/Ismael-VC/HydrocarbonNets.jl/issues) [![Doc Status](https://readthedocs.org/projects/hydrocarbonnetsjl/badge/?version=latest)](https://readthedocs.org/projects/hydrocarbonnetsjl/) [![Forks](https://img.shields.io/github/forks/Ismael-VC/HydrocarbonNets.jl.svg)](https://github.com/Ismael-VC/HydrocarbonNets.jl/network) [![Stars](https://img.shields.io/github/stars/Ismael-VC/HydrocarbonNets.jl.svg)](https://github.com/Ismael-VC/HydrocarbonNets.jl/stargazers) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Ismael-VC/HydrocarbonNets.jl/blob/master/LICENSE)
 
 ## Install:
 
@@ -36,9 +36,10 @@ julia> Pkg.rm("HydrocarbonNets")
 INFO: Removing HydrocarbonNets (unregistered)
 ```
 
-## Documentation:
+## Resources:
 
-* Artificial Hydrocarbon Networks **[Wiki][3]**.
+* `HydrocarbonNets.jl` **[Docs][3]**.
+* **A**rtificial **O**rganic **N**etworks **[Wiki][4]**.
 
 ## To Do:
 
@@ -49,4 +50,5 @@ INFO: Removing HydrocarbonNets (unregistered)
 
 [1]: http://link.springer.com/chapter/10.1007/978-3-319-02472-1_4
 [2]: http://julialang.org/
-[3]: https://github.com/Ismael-VC/HydrocarbonNets.jl/wiki
+[3]: http://hydrocarbonnetsjl.readthedocs.org/en/latest/
+[4]: https://github.com/Ismael-VC/HydrocarbonNets.jl/wiki
