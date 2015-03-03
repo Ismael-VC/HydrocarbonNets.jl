@@ -4,5 +4,5 @@ repo_url: https://github.com/Ismael-VC/HydrocarbonNets.jl
 theme: readthedocs
 docs_dir: 'doc'
 pages:
-- ['index.md', 'Home']
-- ['README.md', 'Read Me']
+- ['index.md', 'Index']
+- ['home.md', 'Home']
