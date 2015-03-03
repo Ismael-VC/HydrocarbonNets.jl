@@ -36,10 +36,10 @@ julia> Pkg.rm("HydrocarbonNets")
 INFO: Removing HydrocarbonNets (unregistered)
 ```
 
-## Documentation:
+## Resources:
 
-* HydrocarbonNets.jl **[Docs][3]**.
-* HydrocarbonNets.jl **[Wiki][4]**.
+* `HydrocarbonNets.jl` **[Docs][3]**.
+* **AHN** **[Wiki][4]**.
 
 ## To Do:
 
