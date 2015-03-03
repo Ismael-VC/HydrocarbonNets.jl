@@ -1,0 +1,8 @@
+site_name: HydrocarbonNets.jl
+site_author: Ismael Venegas C.
+repo_url: https://github.com/Ismael-VC/HydrocarbonNets.jl
+theme: readthedocs
+docs_dir: 'doc'
+pages:
+- ['index.md', 'Home']
+- ['README.md', 'Read Me']
