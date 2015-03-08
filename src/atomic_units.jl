@@ -1,12 +1,18 @@
 abstract AtomicUnit{T}
 
-atoms = [
-    #     Name   Symbol  Valence
-    (:Hydrogen,  :H,     1),
-    (  :Carbon,  :C,     4)
+const atoms_data = [
+    # Variable       Name   Symbol  Valence
+    (:hydrogen, :Hydrogen,  :H,     1),
+    (  :carbon,   :Carbon,  :C,     4)
 ]
 
-for (atom, sym, valence) in atoms
+const atoms = Dict{Symbol, Tuple}[]
+
+for (variable, name, symbol, valence) in atoms_data
+    @eval const $variable = Dict(:name => $name, :symbol => $symbol, :valence => $valence)
+end
+
+for (_, atom, symbol, valence) in atoms
     @eval begin
         type $atom{T<:Number} <: AtomicUnit{T}
             value::Complex{T}    # atomic value
@@ -21,9 +27,12 @@ for (atom, sym, valence) in atoms
         $atom{T<:Real}(value::T) = $atom(complex(value))
         $atom() = $atom(0.0)
 
-        typealias $sym $atom
+        typealias $symbol $atom
     end
 end
+
+for atom in [atoms["name"] for atom in atoms]
+    @eval function promote_rule{T<:Real, S<:Real}(::Type{${T}}, ::Type{Carbon{S}}) = Carbon{promote_type(T, S)}
 
 function Base.show(io::IO, a::AtomicUnit)
     print(io, "$(typeof(a))(value = $(a.value), valence = $(a.valence), degree = $(a.degree), free = $(a.free))")
