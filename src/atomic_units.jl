@@ -1,20 +1,12 @@
 abstract AtomicUnit{T}
 
-const atoms_meta = [
+const atoms_data = [
     #     Name   Symbol  Valence
     (:Hydrogen,  :H,     1),
     (  :Carbon,  :C,     4)
 ]
 
-const atoms_data = [
-    @compat Dict(
-        :name => name,
-        :symbol => symbol,
-        :valence => valence
-    ) for (name, symbol, valence) in atoms_meta
-]
-
-for (name, symbol, valence) in [values(atom) for atom in atoms_data]
+for (name, symbol, valence) in atoms_data
     @eval begin
         type $name{T<:Number} <: AtomicUnit{T}
             value::Complex{T}    # atomic value
@@ -25,17 +17,15 @@ for (name, symbol, valence) in [values(atom) for atom in atoms_data]
             $name(value) = new(value, $valence, 0, $valence)
         end
 
+        typealias $symbol $name
+        
         $name{T<:Real}(value::Complex{T}) = $name{T}(value)
         $name{T<:Real}(value::T) = $name(complex(value))
         $name() = $name(0.0)
 
-        typealias $symbol $name
-    end
-end
-
-for name in [atom[:name] for atom in atoms_data]
-    @eval function promote_rule{T<:Real, S<:Real}(::Type{$name{T}}, ::Type{$name{S}})
-        $name{promote_type(T, S)}
+        function promote_rule{T<:Real, S<:Real}(::Type{$name{T}}, ::Type{$name{S}})
+            $name{promote_type(T, S)}
+        end
     end
 end
 
