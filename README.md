@@ -43,7 +43,7 @@ INFO: Removing HydrocarbonNets (unregistered)
 
 ## To Do:
 
-* [x] Add support for `julia-v0.4+`.
+* [ ] Add support for `julia-v0.4+`.
 * [ ] Add documentation.
 * [ ] Implement molecular units and their behavior functions.
 * [ ] Work with `DataFrames`.
