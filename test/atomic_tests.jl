@@ -1,5 +1,6 @@
 # test atomic units equiality based in valence
 let equality_tests = [
+        crash!!!!
         :((C().valence == H().valence) == false)
         :((H().valence == H().valence) == true)
         :((C() == H()) == false)
