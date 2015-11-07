@@ -29,6 +29,5 @@ type Molecule <: MolecularUnit
 
 end
 
-# molecular unit behavior
 phi{T<:Real}(x::T, d::Int, vH) = sum([a*x^i for i=1:d])
-ϕ = phi
+ϕ = phi    # molecular unit behaviour
