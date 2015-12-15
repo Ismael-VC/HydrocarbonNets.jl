@@ -2,7 +2,7 @@ module HydrocarbonNets
 
 using Compat
 
-import Base: ==, push!, show
+import Base: ==, promote_rule, push!, show
 
        # atomic_units.jl
 export AtomicUnit, Hydrogen, H, Carbon, C,
